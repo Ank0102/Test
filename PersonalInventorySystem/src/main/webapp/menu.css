@@ -1,0 +1,38 @@
+ .menu {
+font-size: 21px;
+font-weight: bold;
+font-family: vardana;
+color: whitesmoke;
+text-decoration: none;
+padding: 15px;
+}
+.personal{
+font-family: verdana;
+font-size: 25px;
+font-weight: bold;
+color: steelblue;
+text-decoration: none;
+}
+.personal2{
+font-family: verdana;
+font-size: 25px;
+font-weight: bold;
+color: gray;
+text-decoration: none;
+}
+.none{
+text-decoration: none;
+font-family: vardana;
+font-weight: bold;
+font-size: 25px;
+}
+.Profile{
+text-decoration: none;
+font-family: vardana;
+font-weight: bold;
+font-size: 55px;	
+}
+.table{
+padding:30px;
+
+}

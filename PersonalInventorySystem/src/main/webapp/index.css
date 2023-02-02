@@ -1,0 +1,263 @@
+ 
+* {
+    margin: 0px;
+}
+
+body {
+    background: linear-gradient(-135deg, #0BC1CF, #23488C);
+}
+
+
+
+legend {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+
+.active{
+    border-radius: 20px;
+    border-left: 3px solid yellow;
+    border-bottom: 3px solid yellow;
+    
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+}
+
+
+
+
+nav{
+    position: sticky;
+    top: 0;
+}
+
+nav #nav {
+    background-color: black;
+    height: 100px;
+    display: flex;
+}
+
+.brand {
+    padding: 10px;
+}
+
+.brand span,
+h1 {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.brand #b1 {
+    margin: 0px 0px 0px 40px;
+    color: yellow;
+}
+
+.brand #b2,
+#about #b2 {
+    padding-top: 0px;
+    color: white;
+}
+
+.brand #b3,
+#about #b3 {
+    color: aqua;
+}
+
+#menu {
+    margin: auto;
+    margin-right: 0px;
+}
+
+#menu a {
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+#menu a:hover {
+    background-color: yellow;
+    color: black;
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+#master {
+    width: 25%;
+    margin: 0px 0px 0px 20px;
+}
+
+#master h2,h3 {
+    color: white;
+}
+
+#master h3 {
+    color: yellow;
+    margin-bottom: 10px;
+}
+
+#master div {
+    background-color: black;
+    margin: 10px 0px 0px 0px;
+    border-radius: 0px 0px 20px 20px;
+    
+
+}
+
+#master ul {
+    list-style: none;
+    padding: 20px 0px 0px 0px;
+}
+
+#master li {
+    padding: 0px 0px 20px 20px;
+}
+
+#master a {
+    text-decoration: none;
+    font-size: larger;
+    color: aqua;
+    padding: 10px;
+}
+
+#master a:hover {
+    background-color: yellow;
+    color: black;
+    border-radius: 20px;
+}
+
+
+
+
+#about h2 {
+    margin: 15px;
+}
+
+#about li {
+    padding: 10px;
+}
+
+#about ol li {
+    font-weight: 550;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin: 20px 0px 0px 0px;
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+}
+
+fieldset {
+    border: 4px solid black;
+    border-radius: 5px;
+}
+
+#login form {
+    width: 45%;
+    padding: 100px;
+    margin: auto;
+    margin-top: 100px;
+    background: linear-gradient(-196deg, #0BC1ED, #000000);
+    border-radius: 49px;
+
+}
+#registration form{
+    width: 45%;
+    padding: 100px;
+    margin: auto;
+    margin-top: 31px;
+    background: linear-gradient(-196deg, #0BC1ED, #000000);
+    border-radius: 49px;
+}
+
+#registration label,#login label {
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 5px;
+}
+
+#registration input,#login input {
+    width: 60%;
+    float: right;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+
+
+#register, #loginButton  {
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+    margin: 10px 0px 0px 38%;
+}
+#registration button,#login button{
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#regi{
+    background-color: grey;
+    color: white;
+    border: 1px solid white;
+    margin: 10px 0px 0px 0px;
+    float: right;
+}
+#clear {
+    background-color: rgb(164, 99, 99);
+    color: white;
+    border: 1px solid white;
+    margin: 10px 0px 0px 18px;
+    float: center;
+}
+
+
+
+    #about {
+    width: 70%;
+    margin-left: 20px;
+    border: 1px solid black;    color: white;
+    background: linear-gradient(-135deg, #0BC1CF, #23488C);
+    border-radius: 20px;
+    margin: auto;
+	}
+    #about table
+ {
+    margin: auto;
+    margin-left: 80px;
+    padding-bottom: 60px;
+    
+}
+#about td 
+{
+    padding: 5px;
+}
